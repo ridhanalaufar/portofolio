@@ -948,6 +948,13 @@ section {
   color: #555974;
 }
 
+.contact .container .row .iframe {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+  height: 1000%;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
