@@ -964,7 +964,7 @@ section {
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
-  height: 75%;
+  height: 100%;
 }
 
 @keyframes animate-loading {
