@@ -962,7 +962,7 @@ section {
 
 .contact .container .row .iframe {
   flex: 1 1 45rem;
-  width: 110%;
+  width: 200%;
   object-fit: cover;
   height: 100%;
 }
