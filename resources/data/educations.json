@@ -1,0 +1,18 @@
+[
+    {
+        "institution": "Pamulang University",
+        "degree": "Bachelor Degree",
+        "Major": "Informatics Engineering",
+        "year": "2021 - 2025",
+        "location": "Banten, Indonesia",
+        "icon": "logo/unpam.png"
+    },
+    {
+        "institution": "SMK Islamiyah Ciputat",
+        "degree": "Vocational High School",
+        "Major": "Computer and Network Engineering",
+        "year": "2017 - 2020",
+        "location": "Banten, Indonesia",
+        "icon": "logo/yic.png"
+    }
+]
