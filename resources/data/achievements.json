@@ -1,82 +1,1344 @@
 [
     {
-        "title": "Data Scientist Expert",
-        "organizer": "IDCamp",
-        "date": "January 2024",
-        "image": "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
+        "title": "Partisipasi Program BDT 2022 Tahap 2 Paket Fasilitasi Sertifikat Profesional Google IT Support",
+        "organizer": "Baparekraf Digital Talent (BDT)",
+        "date": "2022-12",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "2",
         "images": [
-            "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
-            "storage/certificates/IDCAMP-Data_Scientist_Expert2.jpg"
+            "storage/certificates/46_Sertifikat-Partisipasi-Program-BDT-2022-Tahap-2-Paket-Fasilitasi-Sertifikat-Profesional-Google-IT-Support_page_1.png"
         ]
     },
     {
-        "title": "Mikrotik Certified Network Associate (MTCNA)",
-        "organizer": "Mikrotik",
-        "date": "August 2023",
-        "image": "storage/certificates/MTCNA.jpg"
-    },
-    {
-        "title": "Data Scientist Expert",
-        "organizer": "IDCamp",
-        "date": "January 2024",
-        "image": "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
+        "title": "AI Praktis untuk Produktivitas",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "4EXGVDKWDXRL",
+        "CredentialURL": "dicoding.com/certificates/4EXGVDKWDXRL",
+        "priority": "3",
         "images": [
-            "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
-            "storage/certificates/IDCAMP-Data_Scientist_Expert2.jpg"
+            "storage/certificates/AI_Praktis_untuk_Produktivitas-sertifikat_course_862_2245888_160525104656_page_1.png",
+            "storage/certificates/AI_Praktis_untuk_Produktivitas-sertifikat_course_862_2245888_160525104656_page_2.png",
+            "storage/certificates/AI_Praktis_untuk_Produktivitas-sertifikat_course_862_2245888_160525104656_page_3.png"
         ]
     },
     {
-        "title": "Mikrotik Certified Network Associate (MTCNA)",
-        "organizer": "Mikrotik",
-        "date": "August 2023",
-        "image": "storage/certificates/MTCNA.jpg"
-    },
-    {
-        "title": "Data Scientist Expert",
-        "organizer": "IDCamp",
-        "date": "January 2024",
-        "image": "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
+        "title": "Belajar Back End Pemula dengan JavaScript sertifikat course 261 2245888 030525171023",
+        "organizer": "Dicoding",
+        "date": "",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "",
         "images": [
-            "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
-            "storage/certificates/IDCAMP-Data_Scientist_Expert2.jpg"
+            "storage/certificates/Belajar-Back-End-Pemula-dengan-JavaScript_sertifikat_course_261_2245888_030525171023_page_1.png",
+            "storage/certificates/Belajar-Back-End-Pemula-dengan-JavaScript_sertifikat_course_261_2245888_030525171023_page_2.png"
         ]
     },
     {
-        "title": "Mikrotik Certified Network Associate (MTCNA)",
-        "organizer": "Mikrotik",
-        "date": "August 2023",
-        "image": "storage/certificates/MTCNA.jpg"
-    },
-    {
-        "title": "Data Scientist Expert",
-        "organizer": "IDCamp",
-        "date": "January 2024",
-        "image": "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
+        "title": "Belajar Dasar Pemrograman JavaScript sertifikat course 256 2245888 030525171227",
+        "organizer": "Dicoding",
+        "date": "",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "",
         "images": [
-            "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
-            "storage/certificates/IDCAMP-Data_Scientist_Expert2.jpg"
+            "storage/certificates/Belajar-Dasar-Pemrograman-JavaScript_sertifikat_course_256_2245888_030525171227_page_1.png",
+            "storage/certificates/Belajar-Dasar-Pemrograman-JavaScript_sertifikat_course_256_2245888_030525171227_page_2.png",
+            "storage/certificates/Belajar-Dasar-Pemrograman-JavaScript_sertifikat_course_256_2245888_030525171227_page_3.png"
         ]
     },
     {
-        "title": "Mikrotik Certified Network Associate (MTCNA)",
-        "organizer": "Mikrotik",
-        "date": "August 2023",
-        "image": "storage/certificates/MTCNA.jpg"
-    },
-    {
-        "title": "Data Scientist Expert",
-        "organizer": "IDCamp",
-        "date": "January 2024",
-        "image": "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
+        "title": "Belajar Analisis Data dengan Python II",
+        "organizer": "Dicoding",
+        "date": "2024-09",
+        "CredentialID": "KEXL1KOG4XG2",
+        "CredentialURL": "dicoding.com/certificates/KEXL1KOG4XG2",
+        "priority": "",
         "images": [
-            "storage/certificates/IDCAMP-Data_Scientist_Expert.jpg",
-            "storage/certificates/IDCAMP-Data_Scientist_Expert2.jpg"
+            "storage/certificates/Belajar_Analisis_Data_dengan_Python-sertifikat_course_555_2245888_140924032704_page_1.png",
+            "storage/certificates/Belajar_Analisis_Data_dengan_Python-sertifikat_course_555_2245888_140924032704_page_2.png"
         ]
     },
     {
-        "title": "Mikrotik Certified Network Associate (MTCNA)",
-        "organizer": "Mikrotik",
-        "date": "August 2023",
-        "image": "storage/certificates/MTCNA.jpg"
+        "title": "Belajar Dasar AI",
+        "organizer": "Dicoding",
+        "date": "2024-09",
+        "CredentialID": "07Z6016OMZQR",
+        "CredentialURL": "dicoding.com/certificates/07Z6016OMZQR",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Belajar_Dasar_AI-sertifikat_course_653_2245888_130924200813_page_1.png",
+            "storage/certificates/Belajar_Dasar_AI-sertifikat_course_653_2245888_130924200813_page_2.png"
+        ]
+    },
+    {
+        "title": "Belajar Dasar Cloud dan Gen AI di AWS",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "72ZD5N7D9ZYW",
+        "CredentialURL": "dicoding.com/certificates/72ZD5N7D9ZYW",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Belajar_Dasar_Cloud_dan_Gen_AI_di_AWS-sertifikat_course_251_2245888_030525171323_page_1.png",
+            "storage/certificates/Belajar_Dasar_Cloud_dan_Gen_AI_di_AWS-sertifikat_course_251_2245888_030525171323_page_2.png",
+            "storage/certificates/Belajar_Dasar_Cloud_dan_Gen_AI_di_AWS-sertifikat_course_251_2245888_030525171323_page_3.png"
+        ]
+    },
+    {
+        "title": "Belajar Dasar Data Science",
+        "organizer": "Dicoding",
+        "date": "2024-09",
+        "CredentialID": "EYX4V35WJZDL",
+        "CredentialURL": "dicoding.com/certificates/EYX4V35WJZDL",
+        "priority": "",
+        "images": [
+            "storage/certificates/Belajar_Dasar_Data_Science-sertifikat_course_615_2245888_130924200523_page_1.png",
+            "storage/certificates/Belajar_Dasar_Data_Science-sertifikat_course_615_2245888_130924200523_page_2.png",
+            "storage/certificates/Belajar_Dasar_Data_Science-sertifikat_course_615_2245888_130924200523_page_3.png",
+            "storage/certificates/Belajar_Dasar_Data_Science-sertifikat_course_615_2245888_130924200523_page_4.png"
+        ]
+    },
+    {
+        "title": "Belajar Dasar Structured Query Language (SQL)",
+        "organizer": "Dicoding",
+        "date": "2024-09",
+        "CredentialID": "QLZ97M0WDP5D",
+        "CredentialURL": "dicoding.com/certificates/QLZ97M0WDP5D",
+        "priority": "",
+        "images": [
+            "storage/certificates/Belajar_Dasar_SQL-sertifikat_course_600_2245888_130924200653_page_1.png",
+            "storage/certificates/Belajar_Dasar_SQL-sertifikat_course_600_2245888_130924200653_page_2.png",
+            "storage/certificates/Belajar_Dasar_SQL-sertifikat_course_600_2245888_130924200653_page_3.png"
+        ]
+    },
+    {
+        "title": "Belajar Machine Learning Untuk Pemula",
+        "organizer": "Dicoding",
+        "date": "2024-09",
+        "CredentialID": "L4PQ10DD7XO1",
+        "CredentialURL": "dicoding.com/certificates/L4PQ10DD7XO1",
+        "priority": "",
+        "images": [
+            "storage/certificates/Belajar_Machine_Learning_Untuk_Pemula-sertifikat_course_184_2245888_140924015407_page_1.png",
+            "storage/certificates/Belajar_Machine_Learning_Untuk_Pemula-sertifikat_course_184_2245888_140924015407_page_2.png",
+            "storage/certificates/Belajar_Machine_Learning_Untuk_Pemula-sertifikat_course_184_2245888_140924015407_page_3.png"
+        ]
+    },
+    {
+        "title": "Belajar Penerapan Data Science",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "NVP7527MOXR0",
+        "CredentialURL": "dicoding.com/certificates/NVP7527MOXR0",
+        "priority": "1",
+        "images": [
+            "storage/certificates/Belajar_Penerapan_Data_Science-sertifikat_course_590_2245888_160525104241_page_1.png",
+            "storage/certificates/Belajar_Penerapan_Data_Science-sertifikat_course_590_2245888_160525104241_page_2.png"
+        ]
+    },
+    {
+        "title": "Belajar Pengembangan Machine Learning",
+        "organizer": "Dicoding",
+        "date": "2025-03",
+        "CredentialID": "L4PQE912QPO1",
+        "CredentialURL": "dicoding.com/certificates/L4PQE912QPO1",
+        "priority": "1",
+        "images": [
+            "storage/certificates/Belajar_Pengembangan_Machine_Learning-sertifikat_course_185_2245888_010325110142_page_1.png",
+            "storage/certificates/Belajar_Pengembangan_Machine_Learning-sertifikat_course_185_2245888_010325110142_page_2.png",
+            "storage/certificates/Belajar_Pengembangan_Machine_Learning-sertifikat_course_185_2245888_010325110142_page_3.png"
+        ]
+    },
+    {
+        "title": "Belajar Penggunaan Generative AI",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "1RXYE81KQZVM",
+        "CredentialURL": "dicoding.com/certificates/1RXYE81KQZVM",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Belajar_Penggunaan_Generative_AI-sertifikat_course_867_2245888_160525104431_page_1.png",
+            "storage/certificates/Belajar_Penggunaan_Generative_AI-sertifikat_course_867_2245888_160525104431_page_2.png",
+            "storage/certificates/Belajar_Penggunaan_Generative_AI-sertifikat_course_867_2245888_160525104431_page_3.png"
+        ]
+    },
+    {
+        "title": "BNSP Junior Network Administrator I",
+        "organizer": "Badan Sertifikasi Nasional Profesi (BNSP)",
+        "date": "2022-06",
+        "CredentialID": "61200 3513 3 0032292 2022",
+        "CredentialURL": "",
+        "priority": "1",
+        "images": [
+            "storage/certificates/BNSP---Junior-Network-Administrator_page_1.png",
+            "storage/certificates/BNSP---Junior-Network-Administrator_page_2.png"
+        ]
+    },
+    {
+        "title": "Junior Network Administrator II",
+        "organizer": "Badan Sertifikasi Nasional Profesi (BNSP)",
+        "date": "2024-10",
+        "CredentialID": "61200 3513 3 0110160 2024",
+        "CredentialURL": "",
+        "priority": "1",
+        "images": [
+            "storage/certificates/BNSP---Junior-Network-Administrator---2_page_1.png",
+            "storage/certificates/BNSP---Junior-Network-Administrator---2_page_2.png"
+        ]
+    },
+    {
+        "title": "Junior Web Developer",
+        "organizer": "Badan Sertifikasi Nasional Profesi (BNSP)",
+        "date": "2023-05",
+        "CredentialID": "62010 2513 4 0003720 2023",
+        "CredentialURL": "",
+        "priority": "1",
+        "images": [
+            "storage/certificates/BNSP---Junior-Web-Developer_page_1.png",
+            "storage/certificates/BNSP---Junior-Web-Developer_page_2.png"
+        ]
+    },
+    {
+        "title": "Programmer",
+        "organizer": "Badan Sertifikasi Nasional Profesi (BNSP)",
+        "date": "2024-08",
+        "CredentialID": "62000 2519 0 0013865 2024",
+        "CredentialURL": "",
+        "priority": "1",
+        "images": [
+            "storage/certificates/BNSP---Pemrogram_page_1.png",
+            "storage/certificates/BNSP---Pemrogram_page_2.png"
+        ]
+    },
+    {
+        "title": "Convolutional Neural Networks",
+        "organizer": "Coursera",
+        "date": "",
+        "CredentialID": "29WACYJXUXKJ",
+        "CredentialURL": "",
+        "priority": "",
+        "images": [
+            "storage/certificates/Coursera-29WACYJXUXKJ---Convolutional-Neural-Networks_page_1.png"
+        ]
+    },
+    {
+        "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "2A9WMH5LYAFS",
+        "CredentialURL": "https://coursera.org/verify/2A9WMH5LYAFS",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-2A9WMH5LYAFS---Unsupervised-Learning,-Recommenders,-Reinforcement-Learning_page_1.png"
+        ]
+    },
+    {
+        "title": "Configuration Management and the Cloud",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "353GTT923PMP",
+        "CredentialURL": "https://coursera.org/verify/353GTT923PMP",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-353GTT923PMP---Configuration-Management-and-the-Cloud_page_1.png"
+        ]
+    },
+    {
+        "title": "Calculus for Machine Learning and Data Science",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "3N3RDV6MLHDS",
+        "CredentialURL": "https://coursera.org/verify/3N3RDV6MLHDS",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-3N3RDV6---Calculus-for-Machine-Learning-and-Data-Science_page_1.png"
+        ]
+    },
+    {
+        "title": "Analyze Data to Answer Questions",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "3WJAG4TX2A3L",
+        "CredentialURL": "https://coursera.org/verify/3WJAG4TX2A3L",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-3WJAG4TX2A3L---Analyze-Data-to-Answer-Questions_page_1.png"
+        ]
+    },
+    {
+        "title": "Sequence Models",
+        "organizer": "Coursera",
+        "date": "2024-07",
+        "CredentialID": "4EKFWXLWN7H3",
+        "CredentialURL": "https://coursera.org/verify/4EKFWXLWN7H3",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-4EKFWXLWN7H3---Sequence-Models_page_1.png"
+        ]
+    },
+    {
+        "title": "Troubleshooting and Debugging Techniques",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "7RSYZYCCULXM",
+        "CredentialURL": "https://coursera.org/verify/7RSYZYCCULXM",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-7RSYZYCCULXM---Troubleshooting-and-Debugging-Techniques_page_1.png"
+        ]
+    },
+    {
+        "title": "Administrasi Sistem dan Jaringan Infrastruktur TI",
+        "organizer": "Coursera",
+        "date": "2022-10",
+        "CredentialID": "4DGC8FKXHBHJ",
+        "CredentialURL": "https://coursera.org/verify/4DGC8FKXHBHJ",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-Administrasi-Sistem-dan-Jaringan-Infrastruktur-TI-(4DGC8FKXHBHJ)_page_1.png"
+        ]
+    },
+    {
+        "title": "Advanced Learning Algorithms",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "CRLSXAQYSKTL",
+        "CredentialURL": "https://coursera.org/verify/CRLSXAQYSKTL",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-CRLSXAQYSKTL---Advanced-Learning-Algorithms_page_1.png"
+        ]
+    },
+    {
+        "title": "TensorFlow Advanced Techniques",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "DA6JSZ6R6T3C",
+        "CredentialURL": "https://coursera.org/verify/specialization/DA6JSZ6R6T3C",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-DA6JSZ6R6T3C---TensorFlow-Advanced-Techniques_page_1.png"
+        ]
+    },
+    {
+        "title": "Dasar Dasar Dukungan Teknis",
+        "organizer": "Coursera",
+        "date": "2022-10",
+        "CredentialID": "4MT27M8HCE88",
+        "CredentialURL": "https://coursera.org/verify/4MT27M8HCE88",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-Dasar-Dasar-Dukungan-Teknis-(4MT27M8HCE88)_page_1.png"
+        ]
+    },
+    {
+        "title": "Custom and Distributed Training with TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "DETQFT8GM3LM",
+        "CredentialURL": "https://coursera.org/verify/DETQFT8GM3LM",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-DETQFT8GM3LM---Custom-and-Distributed-Training-with-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "DJRSBUQ8XYTS",
+        "CredentialURL": "https://coursera.org/verify/DJRSBUQ8XYTS",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-DJRSBUQ8XYTS---Introduction-to-TensorFlow-for-Artificial-Intelligence,-Machine-Learning,-and-Deep-Learning_page_1.png"
+        ]
+    },
+    {
+        "title": "Automating Real World Tasks with Python",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "DUJPN8B4SRV5",
+        "CredentialURL": "https://coursera.org/verify/DUJPN8B4SRV5",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-DUJPN8B4SRV5---Automating-Real-World-Tasks-with-Python_page_1.png"
+        ]
+    },
+    {
+        "title": "Device based Models with TensorFlow Lite",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "E2JR9N3HQ6Q6",
+        "CredentialURL": "https://coursera.org/verify/E2JR9N3HQ6Q6",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-E2JR9N3HQ6Q6---Device-based-Models-with-TensorFlow-Lite_page_1.png"
+        ]
+    },
+    {
+        "title": "Probability & Statistics for Machine Learning and Data Science",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "E32UJA58GMZN",
+        "CredentialURL": "https://coursera.org/verify/E32UJA58GMZN",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-E32UJA58GMZN---Probability-&-Statistics-for-Machine-Learning-and-Data-Science_page_1.png"
+        ]
+    },
+    {
+        "title": "Deep Learning Specialization",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "E7KHSYFB5CK5",
+        "CredentialURL": "https://coursera.org/verify/specialization/E7KHSYFB5CK5",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-E7KHSYFB5CK5---Deep-Learning-Specialization_page_1.png"
+        ]
+    },
+    {
+        "title": "TensorFlow Data and Deployment",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "ERRHQQWG4VKY",
+        "CredentialURL": "https://coursera.org/verify/specialization/ERRHQQWG4VKY",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-ERRHQQWG4VKY---TensorFlow---Data-and-Deployment_page_1.png"
+        ]
+    },
+    {
+        "title": "Google IT Automation With Python",
+        "organizer": "Coursera",
+        "date": "2024-02",
+        "CredentialID": "F5TZ46D7K4DR",
+        "CredentialURL": "https://coursera.org/verify/professional-cert/F5TZ46D7K4DR",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-F5TZ46D7K4DR---Google-IT-Automation-With-Python_page_1.png"
+        ]
+    },
+    {
+        "title": "Foundations Data, Data, Everywhere",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "GJN9JMYVMRMF",
+        "CredentialURL": "https://coursera.org/verify/GJN9JMYVMRMF",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-GJN9JMYVMRMF---Foundations_Data,-Data,-Everywhere_page_1.png"
+        ]
+    },
+    {
+        "title": "Introduction to Git and GitHub",
+        "organizer": "Coursera",
+        "date": "2024-02",
+        "CredentialID": "GSLRHTS2GGND",
+        "CredentialURL": "https://coursera.org/verify/GSLRHTS2GGND",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-GSLRHTS2GGND---Introduction-to-Git-and-GitHub_page_1.png"
+        ]
+    },
+    {
+        "title": "Data Analysis with R Programming",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "H5VXFQ4ZZ6HD",
+        "CredentialURL": "https://coursera.org/verify/H5VXFQ4ZZ6HD",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-H5VXFQ4ZZ6HD---Data-Analysis-with-R-Programming_page_1.png"
+        ]
+    },
+    {
+        "title": "Coursera HFCKYFNNA6TU Natural Language Processing in TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "HFCKYFNNA6TU",
+        "CredentialURL": "https://coursera.org/verify/HFCKYFNNA6TU",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-HFCKYFNNA6TU---Natural-Language-Processing-in-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "IT Support Google (ULX5CWQZKBAA)",
+        "organizer": "Coursera",
+        "date": "2022-08",
+        "CredentialID": "ULX5CWQZKBAA",
+        "CredentialURL": "https://coursera.org/verify/professional-cert/ULX5CWQZKBAA",
+        "priority": "1",
+        "images": [
+            "storage/certificates/Coursera-IT-Support-Google-(ULX5CWQZKBAA)_page_1.png"
+        ]
+    },
+    {
+        "title": "Keamanan IT Pertahanan Terhadap Kejahatan Digital (H2KN3NXQ7R9A)",
+        "organizer": "Coursera",
+        "date": "2022-08",
+        "CredentialID": "H2KN3NXQ7R9A",
+        "CredentialURL": "https://coursera.org/verify/H2KN3NXQ7R9A",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-Keamanan-IT---Pertahanan-Terhadap-Kejahatan-Digital-(H2KN3NXQ7R9A)_page_1.png"
+        ]
+    },
+    {
+        "title": "Process Data from Dirty to Clean",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "KJEL9SXE3FB9",
+        "CredentialURL": "https://coursera.org/verify/KJEL9SXE3FB9",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-KJEL9SXE3FB9---Process-Data-from-Dirty-to-Clean_page_1.png"
+        ]
+    },
+    {
+        "title": "Structuring Machine Learning Projects",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "L4QF9QW74K9V",
+        "CredentialURL": "https://coursera.org/verify/L4QF9QW74K9V",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-L4QF9QW74K9V---Structuring-Machine-Learning-Projects_page_1.png"
+        ]
+    },
+    {
+        "title": "Share Data Through the Art of Visualization",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "LUYZMBS87AJ2",
+        "CredentialURL": "https://coursera.org/verify/LUYZMBS87AJ2",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-LUYZMBS87AJ2---Share-Data-Through-the-Art-of-Visualization_page_1.png"
+        ]
+    },
+    {
+        "title": "Linear Algebra for Machine Learning and Data Science",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "LXPSZ4XDTTEV",
+        "CredentialURL": "https://coursera.org/verify/LXPSZ4XDTTEV",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-LXPSZ4XDTTEV---Linear-Algebra-for-Machine-Learning-and-Data-Science_page_1.png"
+        ]
+    },
+    {
+        "title": "Generative Deep Learning with TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "M3SXVGV3JAGK",
+        "CredentialURL": "https://coursera.org/verify/M3SXVGV3JAGK",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-M3SXVGV3JAGK---Generative-Deep-Learning-with-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "Google Data Analytics Capstone Complete a Case",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "MMH79ABCXWKR",
+        "CredentialURL": "https://coursera.org/verify/MMH79ABCXWKR",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-MMH79ABCXWKR---Google-Data-Analytics-Capstone---Complete-a-Case_page_1.png"
+        ]
+    },
+    {
+        "title": "Supervised Machine Learning Regression and Classification",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "PE72K5JPLFTC",
+        "CredentialURL": "https://coursera.org/verify/PE72K5JPLFTC",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-PE72K5JPLFTC---Supervised-Machine-Learning-Regression-and-Classification_page_1.png"
+        ]
+    },
+    {
+        "title": "Ask Questions to Make Data Driven Decisions",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "R5ERXQMT5XA3",
+        "CredentialURL": "https://coursera.org/verify/R5ERXQMT5XA3",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-R5ERXQMT5XA3---Ask-Questions-to-Make-Data-Driven-Decisions_page_1.png"
+        ]
+    },
+    {
+        "title": "Advanced Computer Vision with TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "RX6Y334DTZ9F",
+        "CredentialURL": "https://coursera.org/verify/RX6Y334DTZ9F",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-RX6Y334DTZ9F---Advanced-Computer-Vision-with-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "Seluk Beluk Jaringan Komputer",
+        "organizer": "Coursera",
+        "date": "2022-10",
+        "CredentialID": "SCCLL7T3J2PE",
+        "CredentialURL": "https://coursera.org/verify/SCCLL7T3J2PE",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-Seluk-Beluk-Jaringan-Komputer-(SCCLL7T3J2PE)_page_1.png"
+        ]
+    },
+    {
+        "title": "Sistem Operasi dan Anda Menjadi Pengguna yang Berdaya",
+        "organizer": "Coursera",
+        "date": "2024-10",
+        "CredentialID": "98SFSGBYKEKE",
+        "CredentialURL": "https://coursera.org/verify/98SFSGBYKEKE",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-Sistem-Operasi-dan-Anda---Menjadi-Pengguna-yang-Berdaya-(98SFSGBYKEKE)_page_1.png"
+        ]
+    },
+    {
+        "title": "Convolutional Neural Networks in TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "SXG54DNN54DS",
+        "CredentialURL": "https://coursera.org/verify/SXG54DNN54DS",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-SXG54DNN54DS---Convolutional-Neural-Networks-in-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "Neural Networks and Deep Learning",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "T248T6RJU6EX",
+        "CredentialURL": "https://coursera.org/verify/T248T6RJU6EX",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-T248T6RJU6EX---Neural-Networks-and-Deep-Learning_page_1.png"
+        ]
+    },
+    {
+        "title": "Prepare Data for Exploration",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "TY9E54B2KTBV",
+        "CredentialURL": "https://coursera.org/verify/TY9E54B2KTBV",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-TY9E54B2KTBV---Prepare-Data-for-Exploration_page_1.png"
+        ]
+    },
+    {
+        "title": "Generative AI for Everyone",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "UEVUMLVCDBPJ",
+        "CredentialURL": "https://coursera.org/verify/UEVUMLVCDBPJ",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-UEVUMLVCDBPJ---Generative-AI-for-Everyone_page_1.png"
+        ]
+    },
+    {
+        "title": "Using Python to Interact with the Operating",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "UWR8RC8MHN29",
+        "CredentialURL": "https://coursera.org/verify/UWR8RC8MHN29",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-UWR8RC8MHN29---Using-Python-to-Interact-with-the-Operating_page_1.png"
+        ]
+    },
+    {
+        "title": "Custom Models, Layers, and Loss Functions with TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "V6ZGRR6XKGFR",
+        "CredentialURL": "https://coursera.org/verify/V6ZGRR6XKGFR",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-V6ZGRR6XKGFR---Custom-Models,-Layers,-and-Loss-Functions-with-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "Mathematics for Machine Learning and Data Science",
+        "organizer": "Coursera",
+        "date": "2024-03",
+        "CredentialID": "VEQCPKPN7SFZ",
+        "CredentialURL": "https://coursera.org/verify/specialization/VEQCPKPN7SFZ",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-VEQCPKPN7SFZ---Mathematics-for-Machine-Learning-and-Data-Science_page_1.png"
+        ]
+    },
+    {
+        "title": "Data Pipelines with TensorFlow Data Services",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "VHX3WHNHN34F",
+        "CredentialURL": "https://coursera.org/verify/VHX3WHNHN34F",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-VHX3WHNHN34F---Data-Pipelines-with-TensorFlow-Data-Services_page_1.png"
+        ]
+    },
+    {
+        "title": "Crash Course on Python",
+        "organizer": "Coursera",
+        "date": "2024-02",
+        "CredentialID": "VUC223ETCE3H",
+        "CredentialURL": "https://coursera.org/verify/VUC223ETCE3H",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-VUC223ETCE3H---Crash-Course-on-Python_page_1.png"
+        ]
+    },
+    {
+        "title": "Sequences, Time Series and Prediction",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "W9K3CJ67DFDU",
+        "CredentialURL": "https://coursera.org/verify/W9K3CJ67DFDU",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-W9K3CJ67DFDU---Sequences,-Time-Series-and-Prediction_page_1.png"
+        ]
+    },
+    {
+        "title": "Machine Learning Specialization",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "WC4EPCQ6WLHX",
+        "CredentialURL": "https://coursera.org/verify/specialization/WC4EPCQ6WLHX",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-WC4EPCQ6WLHX---Machine-Learning-Specialization_page_1.png"
+        ]
+    },
+    {
+        "title": "DeepLearning.AI Tensorflow Developer",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "WFR8SZSTYGC4",
+        "CredentialURL": "https://coursera.org/verify/professional-cert/WFR8SZSTYGC4",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-WFR8SZSTYGC4---DeepLearning.AI-Tensorflow-Developer_page_1.png"
+        ]
+    },
+    {
+        "title": "Google Data Analytics",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "Y5M8L4NRNLS2",
+        "CredentialURL": "https://coursera.org/verify/professional-cert/Y5M8L4NRNLS2",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Coursera-Y5M8L4NRNLS2---Google-Data-Analytics_page_1.png"
+        ]
+    },
+    {
+        "title": "Improving Deep Neural Networks Hyperparameter Tuning, Regularization and Optimization",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "YGCUFRPVY3EF",
+        "CredentialURL": "https://coursera.org/verify/YGCUFRPVY3EF",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-YGCUFRPVY3EF---Improving-Deep-Neural-Networks---Hyperparameter-Tuning,-Regularization-and-Optimization_page_1.png"
+        ]
+    },
+    {
+        "title": "Browser based Models with TensorFlow.js",
+        "organizer": "Coursera",
+        "date": "2024-04",
+        "CredentialID": "Z4SC535D8GA5",
+        "CredentialURL": "https://coursera.org/verify/Z4SC535D8GA5",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-Z4SC535D8GA5---Browser-based-Models-with-TensorFlow.js_page_1.png"
+        ]
+    },
+    {
+        "title": "Advanced Deployment Scenarios with TensorFlow",
+        "organizer": "Coursera",
+        "date": "2024-05",
+        "CredentialID": "ZZVER3YYN2Q9",
+        "CredentialURL": "https://coursera.org/verify/ZZVER3YYN2Q9",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Coursera-ZZVER3YYN2Q9---Advanced-Deployment-Scenarios-with-TensorFlow_page_1.png"
+        ]
+    },
+    {
+        "title": "INTRO TO DATA ANALYTICS",
+        "organizer": "Revo U",
+        "date": "2025-06",
+        "CredentialID": "DAMC-23062025-01-1-00641",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/DAMC-REVOU-INTRO-TO-DATA-ANALYTICS-01-1-00641_page_1.png"
+        ]
+    },
+    {
+        "title": "Belajar Machine Learning untuk Pemula",
+        "organizer": "Dicoding",
+        "date": "2022-09",
+        "CredentialID": "RVZK63WEOZD5",
+        "CredentialURL": "https://dicoding.com/certificates/RVZK63WEOZD5",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Dicoding-Courses_Machine-Learning-Pemula_page_1.png",
+            "storage/certificates/Dicoding-Courses_Machine-Learning-Pemula_page_2.png",
+            "storage/certificates/Dicoding-Courses_Machine-Learning-Pemula_page_3.png"
+        ]
+    },
+    {
+        "title": "Memulai Pemrograman Dengan Python I",
+        "organizer": "Dicoding",
+        "date": "2022-06",
+        "CredentialID": "KEXLG86GRZG2",
+        "CredentialURL": "https://dicoding.com/certificates/KEXLG86GRZG2",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Dicoding-Courses_Python-Programming-Language_page_1.png",
+            "storage/certificates/Dicoding-Courses_Python-Programming-Language_page_2.png",
+            "storage/certificates/Dicoding-Courses_Python-Programming-Language_page_3.png"
+        ]
+    },
+    {
+        "title": "Dicoding Courses Visualisasi Data",
+        "organizer": "Dicoding",
+        "date": "2022-06",
+        "CredentialID": "1OP86NOMQXQK",
+        "CredentialURL": "https://dicoding.com/certificates/1OP86NOMQXQK",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Dicoding-Courses_Visualisasi-Data_page_1.png",
+            "storage/certificates/Dicoding-Courses_Visualisasi-Data_page_2.png"
+        ]
+    },
+    {
+        "title": "Digital Marketing Ridhan Al Aufar",
+        "organizer": "Asosiasi Digital Marketing Indonesia (DIGIMIND)",
+        "date": "2022-03",
+        "CredentialID": "6597/Digimind/II/2022",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Digital-Marketing---Ridhan-Al-Aufar_page_1.png",
+            "storage/certificates/Digital-Marketing---Ridhan-Al-Aufar_page_2.png"
+        ]
+    },
+    {
+        "title": "Data Driven Future: Kuasai Data Science Dengan Platform Azure",
+        "organizer": "Dicoding",
+        "date": "2025-03",
+        "CredentialID": "",
+        "CredentialURL": "https://dicoding.com/users/ridhann_4/events",
+        "priority": "3",
+        "images": [
+            "storage/certificates/elevaite-x-dicoding-live-3-data-driven-future-kuasai-data-science-dengan-platform-azure-certificate_page_1.png"
+        ]
+    },
+    {
+        "title": "Sertifikat Kompetensisi",
+        "organizer": "Goldie Media Global",
+        "date": "2020-08",
+        "CredentialID": "059/SF-UKK-TKJ/GMG/VIII/2020",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/FIle-5-Sertifikat-Kompetensi_FIT_page_1.png",
+            "storage/certificates/FIle-5-Sertifikat-Kompetensi_FIT_page_2.png",
+            "storage/certificates/FIle-5-Sertifikat-Kompetensi_FIT_page_3.png",
+            "storage/certificates/FIle-5-Sertifikat-Kompetensi_FIT_page_4.png"
+        ]
+    },
+    {
+        "title": "Sertifikat Praktek Kerja Industri",
+        "organizer": "Telkom Akses",
+        "date": "2019-05",
+        "CredentialID": ":9901/PS.000/TA-0104/05-2019",
+        "CredentialURL": "",
+        "priority": "2",
+        "images": ["storage/certificates/File-6-Sertifikat-Prakerin_page_1.png"]
+    },
+    {
+        "title": "Sertifikat Teknisi Komputer",
+        "organizer": "ElC Training Services",
+        "date": "2021-03",
+        "CredentialID": "21031702D9BBBD",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/File-7-Sertifikat-Teknisi-Komputer_page_1.png",
+            "storage/certificates/File-7-Sertifikat-Teknisi-Komputer_page_2.png"
+        ]
+    },
+    {
+        "title": "Financial Literacy 101 sertifikat course 852 2245888 030525171416",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "RVZKW3L7EZD5",
+        "CredentialURL": "https://dicoding.com/certificates/RVZKW3L7EZD5",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Financial_Literacy_101-sertifikat_course_852_2245888_030525171416_page_1.png",
+            "storage/certificates/Financial_Literacy_101-sertifikat_course_852_2245888_030525171416_page_2.png"
+        ]
+    },
+    {
+        "title": "Data Scientist Expert",
+        "organizer": "IDCamp x Dicoding",
+        "date": "2025-05",
+        "Credential ID": "IDCAMP2024/L3-DS-082",
+        "Credential URL": "",
+        "priority": 1,
+        "images": [
+            "storage/certificates/IDCAMP---Data-Scientist-Expert_page_1.png"
+        ]
+    },
+    {
+        "title": "Data Scientist Intermediate",
+        "organizer": "IDCamp x Dicoding",
+        "date": "2025-04",
+        "Credential ID": "IDCAMP2024/L2-DS-200",
+        "Credential URL": "",
+        "priority": 2,
+        "images": [
+            "storage/certificates/IDCAMP---Data-Scientist-Intermediate_page_1.png"
+        ]
+    },
+    {
+        "title": "Studi Independen Bersertifikat Angkatan 6",
+        "organizer": "Kampus Merdeka",
+        "date": "",
+        "CredentialID": "7424767",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Kampus-Merdeka---1719638406084_page_1.png"
+        ]
+    },
+    {
+        "title": "Debunking The Myth of Intelligent Automation: Prepare For The Future Workforce",
+        "organizer": "IDCamp x Dicoding",
+        "date": "2025-07",
+        "CredentialID": "",
+        "CredentialURL": "https://dicoding.com/users/ridhann_4/events",
+        "priority": "3",
+        "images": [
+            "storage/certificates/kehadiran-idcamp-alumni-dialogue-5-debunking-the-myth-of-intelligent-automation-prepare-for-the-future-workforce-certificate_page_1.png"
+        ]
+    },
+    {
+        "title": "UI Path Agentic Automation: Introduction and Use Case",
+        "organizer": "IDCamp x Dicoding",
+        "date": "2025-07",
+        "CredentialID": "",
+        "CredentialURL": "https://dicoding.com/users/ridhann_4/events",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Kehadiran-idcamp-x-dicoding-live-10-uipath-agentic-automation-introduction-and-use-case-certificate_page_1.png"
+        ]
+    },
+    {
+        "title": "Artificial Intelligence 2025",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "",
+        "CredentialURL": "https://dicoding.com/users/ridhann_4/events",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Kehadiran-pelatihan-artificial-intelligence-2025-live-session-1-certificate_page_1.png"
+        ]
+    },
+    {
+        "title": "Failing Forward: Turning Setbacks into Growth in Tech",
+        "organizer": "IDCamp x Dicoding",
+        "date": "2025-05",
+        "CredentialID": "",
+        "CredentialURL": "https://dicoding.com/users/ridhann_4/events",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Keharidran-reschedule-idcamp-alumni-dialogue-4-failing-forward-turning-setbacks-into-growth-in-tech-certificate_page_1.png"
+        ]
+    },
+    {
+        "title": "Memulai Pemrograman Dengan Python II",
+        "organizer": "Dicoding",
+        "date": "2024-09",
+        "CredentialID": "53XEO87G0ZRN",
+        "CredentialURL": "https://dicoding.com/certificates/53XEO87G0ZRN",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Memulai_Pemrograman_Dengan_Python-sertifikat_course_86_2245888_130924210608_page_1.png",
+            "storage/certificates/Memulai_Pemrograman_Dengan_Python-sertifikat_course_86_2245888_130924210608_page_2.png",
+            "storage/certificates/Memulai_Pemrograman_Dengan_Python-sertifikat_course_86_2245888_130924210608_page_3.png"
+        ]
+    },
+    {
+        "title": "MikroTik Certified Network Associate (MTCNA)",
+        "organizer": "MikroTik",
+        "date": "2025-07",
+        "CredentialID": "2507NA1468",
+        "CredentialURL": "https://mikrotik.com/certificateSearch",
+        "priority": "1",
+        "images": ["storage/certificates/MTCNA.jpg"]
+    },
+    {
+        "title": "Networking Basics",
+        "organizer": "Cisco Networking Academy",
+        "date": "2024-09",
+        "CredentialID": "",
+        "CredentialURL": "https://www.credly.com/badges/1fcc1ddc-62c3-442b-a8cf-a9023989cbdd/print",
+        "priority": "1",
+        "images": [
+            "storage/certificates/Networking_Basics_Badge20240919-7-yqv67d_page_1.png",
+            "storage/certificates/NetworkingBasicsUpdate20250614-27-8bfxkf_page_1.png"
+        ]
+    },
+    {
+        "title": "Omada Certified Network Administrator (OCNA) - Wireless",
+        "organizer": "TP-Link Systems Inc.",
+        "date": "2025-08",
+        "CredentialID": "991286D74D764AC4",
+        "CredentialURL": "https://training.tp-link.com/",
+        "priority": "1",
+        "images": [
+            "storage/certificates/Omada-Certificate_Template_A4_OCNA-Wireless_Ridhan-Al-Aufar_page_1.png"
+        ]
+    },
+    {
+        "title": "Pengabdian Kepada Masyarakat - Penguatan Konsep Jaringan Komputer Pada Siswa Kelas XII Di SMK Cahaya Prima",
+        "organizer": "Universitas Pamulang",
+        "date": "2024-07",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": ["storage/certificates/PKM-RIDHAN-AL-AUFAR_page_1.png"]
+    },
+    {
+        "title": "Prompt Engineering untuk Software Developer",
+        "organizer": "Dicoding",
+        "date": "2025-05",
+        "CredentialID": "GRX5378OYZOM",
+        "CredentialURL": "https://dicoding.com/certificates/GRX5378OYZOM",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Prompt-Engineering-untuk-Software-Developer-sertifikat_course_753_2245888_300525194811_page_1.png",
+            "storage/certificates/Prompt-Engineering-untuk-Software-Developer-sertifikat_course_753_2245888_300525194811_page_2.png"
+        ]
+    },
+    {
+        "title": "Cisco Dasar",
+        "organizer": "ID-Networkers",
+        "date": "2023-11",
+        "CredentialID": "IDN-1698993599-184-26135",
+        "CredentialURL": "https://lms.idn.id/cert-verification/?certificate_id=IDN-1698993599-184-26135",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Ridhan-Al-Aufar---Cisco-Dasar---Sertifikat-Cisco-Dasar---LMS-ID-Networkers_page_1.png"
+        ]
+    },
+    {
+        "title": "Jaringan Komputer Dasar",
+        "organizer": "ID-Networkers",
+        "date": "2023-11",
+        "CredentialID": "IDN-1698992719-180-26135",
+        "CredentialURL": "https://lms.idn.id/cert-verification/?certificate_id=IDN-1698992719-180-26135",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Ridhan-Al-Aufar---Jaringan-Dasar---Sertifikat-Jaringan-Komputer-Dasar---LMS-ID-Networkers_page_1.png"
+        ]
+    },
+    {
+        "title": "Mikrotik Dasar",
+        "organizer": "ID-Networkers",
+        "date": "2023-11",
+        "CredentialID": "IDN-1698992101-182-26135",
+        "CredentialURL": "https://lms.idn.id/cert-verification/?certificate_id=IDN-1698992101-182-26135",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Ridhan-Al-Aufar---Mikrotik-Dasar---Sertifikat-Mikrotik-Dasar---LMS-ID-Networkers_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Kenalan dengan Cisco Software Defined WAN",
+        "organizer": "ID-Networkers",
+        "date": "2024-09",
+        "CredentialID": "",
+        "CredentialURL": "https://lms.idn.id/cert-verification/?certificate_id=1725854797-13644-26135",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Ridhan-Al-Aufar-Webinar-Kenalan-dengan-Cisco-Software-Defined-WAN-7-September-2024-Sertifikat-Webinar-Kenalan-dengan-Cisco-Software-Defined-WAN-7-September-2024-LMS-ID-Networkers_page_1.png"
+        ]
+    },
+    {
+        "title": "Data Classification and Summarization",
+        "organizer": "HACKTIV8 x IBM SkillsBuild",
+        "date": "2025-07",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "2",
+        "images": [
+            "storage/certificates/Sertifikat-Data-Classification-and-Summarization---Wave-2_page_1.png"
+        ]
+    },
+    {
+        "title": "Keanggotaan Aktif Himpunan Mahasiswa Teknik Informatika",
+        "organizer": "Universitas Pamulang",
+        "date": "2023-01",
+        "CredentialID": "121/SRT-HIMTIF-LK/I/22",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat-Keanggotaan-HIMA_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Future Energy In Artificial Intelligence Perspective",
+        "organizer": "Universitas Pamulang",
+        "date": "2021-12",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-2_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Metaverse As Future Virtual Technology Innovation",
+        "organizer": "Universitas Pamulang",
+        "date": "2022-04",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-3_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Big Data Analysis For Cyber Security In National Data Security System",
+        "organizer": "Universitas Pamulang",
+        "date": "2022-10",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-4_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar The Role of Artificial Intellegence in Developing Research Methodology in the Field of Renewable Energy",
+        "organizer": "Universitas Pamulang",
+        "date": "2023-07",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-5_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Persuasive Technology and Gamification To Sustain Positive Change",
+        "organizer": "Universitas Pamulang",
+        "date": "2023-12",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-6_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Digital Entrepreneurship Innovation: Kreativitas Tanpa Batas sebagai Strategi Ampuh Nge-hitz di Era Digital",
+        "organizer": "Universitas Pamulang",
+        "date": "2024-06",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-7_page_1.png"
+        ]
+    },
+    {
+        "title": "Webinar Kuliah Umum Fakultas Ilmu Komputer Membangun Fondasi Masa Depan: Kuliah Efektif, Pendidikan Tinggi, Dan Meraih Sukses Di Dunia Teknologi",
+        "organizer": "Universitas Pamulang",
+        "date": "2024-10",
+        "CredentialID": "",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": [
+            "storage/certificates/Sertifikat-Seminar-Semester-8_page_1.png"
+        ]
+    },
+    {
+        "title": "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+        "organizer": "Dicoding",
+        "date": "2024-02",
+        "CredentialID": "KEXL8VN8YZG2",
+        "CredentialURL": "https://dicoding.com/certificates/KEXL8VN8YZG2",
+        "priority": "3",
+        "images": [
+            "storage/certificates/sertifikat_course_237_2245888_210224170313---Memulai-Dasar-Pemrograman-untuk-Menjadi-Pengembang_page_1.png",
+            "storage/certificates/sertifikat_course_237_2245888_210224170313---Memulai-Dasar-Pemrograman-untuk-Menjadi-Pengembang_page_2.png",
+            "storage/certificates/sertifikat_course_237_2245888_210224170313---Memulai-Dasar-Pemrograman-untuk-Menjadi-Pengembang_page_3.png",
+            "storage/certificates/sertifikat_course_237_2245888_210224170313---Memulai-Dasar-Pemrograman-untuk-Menjadi-Pengembang_page_4.png"
+        ]
+    },
+    {
+        "title": "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+        "organizer": "Dicoding",
+        "date": "2024-02",
+        "CredentialID": "53XEY93YRPRN",
+        "CredentialURL": "https://dicoding.com/certificates/53XEY93YRPRN",
+        "priority": "3",
+        "images": [
+            "storage/certificates/sertifikat_course_302_2245888_210224170431---Pengenalan-ke-Logika-Pemrograman-(Programming-Logic-101)_page_1.png",
+            "storage/certificates/sertifikat_course_302_2245888_210224170431---Pengenalan-ke-Logika-Pemrograman-(Programming-Logic-101)_page_2.png"
+        ]
+    },
+    {
+        "title": "Belajar Dasar Git dengan GitHub",
+        "organizer": "Dicoding",
+        "date": "2024-02",
+        "CredentialID": "NVP7763QOPR0",
+        "CredentialURL": "https://dicoding.com/certificates/NVP7763QOPR0",
+        "priority": "3",
+        "images": [
+            "storage/certificates/sertifikat_course_317_2245888_210224170529---Belajar-Dasar-Git-dengan-GitHub_page_1.png",
+            "storage/certificates/sertifikat_course_317_2245888_210224170529---Belajar-Dasar-Git-dengan-GitHub_page_2.png",
+            "storage/certificates/sertifikat_course_317_2245888_210224170529---Belajar-Dasar-Git-dengan-GitHub_page_3.png"
+        ]
+    },
+    {
+        "title": "Belajar Analisis Data Dengan Python I",
+        "organizer": "Dicoding",
+        "date": "2024-03",
+        "CredentialID": "6RPNV5889Z2M",
+        "CredentialURL": "https://dicoding.com/certificates/6RPNV5889Z2M",
+        "priority": "3",
+        "images": [
+            "storage/certificates/sertifikat_course_555_2245888_020324100930---Belajar-Analisis-Data-Dengan-Python_page_1.png",
+            "storage/certificates/sertifikat_course_555_2245888_020324100930---Belajar-Analisis-Data-Dengan-Python_page_2.png"
+        ]
+    },
+    {
+        "title": "Fundamental Data Science",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2025-06",
+        "CredentialID": "19510439840-1555/FGA/BLSDM.Komdigi/2025",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Fundamental-Data-Science_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Fundamental-Data-Science_page_2.png"
+        ]
+    },
+    {
+        "title": "Introduction To Cloud Computing",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2025-04",
+        "CredentialID": "2299864850-6598/MS/BLSDM.Komdigi/2025",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Introduction-To-Cloud-Computing_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Introduction-To-Cloud-Computing_page_2.png"
+        ]
+    },
+    {
+        "title": "Junior Network Administrator",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2024-08",
+        "CredentialID": "19382771150-43/VSGA/BLSDM.Kominfo/2024",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Junior-Network-Administrator_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Junior-Network-Administrator_page_2.png"
+        ]
+    },
+    {
+        "title": "Junior Web Developer",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2023-03",
+        "CredentialID": "1935604860-799/VSGA/BLSDM.Kominfo/2023",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Junior-Web-Developer_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Junior-Web-Developer_page_2.png"
+        ]
+    },
+    {
+        "title": "Pengenalan Data Science dan Pemanfaatannya di Berbagai Sektor",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2025-05",
+        "CredentialID": "2299818850-4428/MS/BLSDM.Komdigi/2025",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Pengenalan-Data-Science-dan-Pemanfaatannya-di-Berbagai-Sektor_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Pengenalan-Data-Science-dan-Pemanfaatannya-di-Berbagai-Sektor_page_2.png"
+        ]
+    },
+    {
+        "title": "Seberapa Penting Menjaga Data Pribadi dan Pelindungannya",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2025-04",
+        "CredentialID": "2299751990-5200/MS/BLSDM.Komdigi/2025",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Seberapa-Penting-Menjaga-Data-Pribadi-dan-Pelindungannya_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Seberapa-Penting-Menjaga-Data-Pribadi-dan-Pelindungannya_page_2.png"
+        ]
+    },
+    {
+        "title": "Wawasan Karir dalam Bidang Data Analytics",
+        "organizer": "Digital Talent Scholarship",
+        "date": "2025-05",
+        "CredentialID": "2299746850-4073/MS/BLSDM.Komdigi/2025",
+        "CredentialURL": "",
+        "priority": "3",
+        "images": [
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Wawasan-Karir-dalam-Bidang-Data-Analytics_page_1.png",
+            "storage/certificates/Sertifikat_RIDHAN-AL-AUFAR_Wawasan-Karir-dalam-Bidang-Data-Analytics_page_2.png"
+        ]
+    },
+    {
+        "title": "Webinar Strategic IT Infrastructure Implementation Planning",
+        "organizer": "SUHU Training and Consulting",
+        "date": "2025-02",
+        "CredentialID": "SUHU-25021091",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": ["storage/certificates/Webinar-IT-Infra_page_1.png"]
+    },
+    {
+        "title": "Webinar Level Up IT Project Management Anda dengan Agile",
+        "organizer": "SUHU Training and Consulting",
+        "date": "2025-06",
+        "CredentialID": "SUHU-25053107",
+        "CredentialURL": "",
+        "priority": "4",
+        "images": ["storage/certificates/Webinar-IT-PM_page_1.png"]
     }
 ]
