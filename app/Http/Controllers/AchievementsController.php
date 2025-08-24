@@ -3,37 +3,38 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class AchievementsController extends Controller
 {
     public function __invoke(Request $request)
     {
-        $achievements = json_decode(file_get_contents(resource_path('data/achievements.json')), true);
+        // Load achievements data
+        $allAchievements = json_decode(file_get_contents(resource_path('data/achievements.json')), true);
+        $achievements = $allAchievements;
 
-        // Normalisasi supaya semua punya "images" dan field yang diperlukan
-        foreach ($achievements as &$a) {
-            if (!isset($a['images'])) {
-                $a['images'] = isset($a['image']) ? [$a['image']] : [];
+        // Normalize data and add formatted date
+        foreach ($achievements as &$achievement) {
+            // Normalize images field
+            if (!isset($achievement['images'])) {
+                $achievement['images'] = isset($achievement['image']) ? [$achievement['image']] : [];
             }
-            // Set default values for new fields if they don't exist
-            if (!isset($a['priority'])) {
-                $a['priority'] = '1'; // Default priority
-            }
-            if (!isset($a['CredentialID'])) {
-                $a['CredentialID'] = '';
-            }
-            if (!isset($a['CredentialURL'])) {
-                $a['CredentialURL'] = '';
-            }
+
+            // Set default values for optional fields
+            $achievement['CredentialID'] = $achievement['CredentialID'] ?? '';
+            $achievement['CredentialURL'] = $achievement['CredentialURL'] ?? '';
+
+            // Add formatted date for frontend display
+            $achievement['formatted_date'] = $this->formatDate($achievement['date']);
         }
 
         // Get filter and sort parameters
-        $sortBy = $request->get('sort', 'date'); // default sort by date
-        $sortOrder = $request->get('order', 'desc'); // default descending
-        $filterOrganizer = $request->get('organizer', ''); // filter by organizer
+        $sortBy = $request->get('sort', 'date');
+        $sortOrder = $request->get('order', 'desc');
+        $filterOrganizer = $request->get('organizer', '');
 
         // Apply organizer filter
-        if ($filterOrganizer !== '' && $filterOrganizer !== 'all') {
+        if (!empty($filterOrganizer) && $filterOrganizer !== 'all') {
             $achievements = array_filter($achievements, function ($achievement) use ($filterOrganizer) {
                 return $achievement['organizer'] === $filterOrganizer;
             });
@@ -45,51 +46,66 @@ class AchievementsController extends Controller
             $valueB = $b[$sortBy] ?? '';
 
             if ($sortBy === 'date') {
-                // Handle date sorting - convert to timestamp for proper comparison
-                $dateA = $this->parseDate($valueA);
-                $dateB = $this->parseDate($valueB);
-                $comparison = $dateA <=> $dateB;
+                // Convert dates to timestamps for proper comparison
+                $timestampA = $this->parseDate($valueA);
+                $timestampB = $this->parseDate($valueB);
+                $comparison = $timestampA <=> $timestampB;
             } else {
-                // Handle title and other text fields
+                // Handle text fields
                 $comparison = strcasecmp($valueA, $valueB);
             }
 
             return $sortOrder === 'desc' ? -$comparison : $comparison;
         });
 
-        // Get unique organizers for filter options
-        $allAchievements = json_decode(file_get_contents(resource_path('data/achievements.json')), true);
+        // Get unique organizers from ALL achievements for filter dropdown
         $organizers = array_unique(array_column($allAchievements, 'organizer'));
         sort($organizers);
 
         return view('pages.achievements', compact('achievements', 'organizers'));
     }
 
+    /**
+     * Parse date string into timestamp for sorting
+     */
     private function parseDate($dateString)
     {
-        // Handle different date formats
         if (empty($dateString)) {
             return 0;
         }
 
-        // Try to parse various date formats
-        $formats = [
-            'Y-m',     // 2025-05
-            'Y-m-d',   // 2025-05-15
-            'Y',       // 2025
-            'd-m-Y',   // 15-05-2025
-            'd/m/Y',   // 15/05/2025
-        ];
-
-        foreach ($formats as $format) {
-            $date = \DateTime::createFromFormat($format, $dateString);
-            if ($date !== false) {
-                return $date->getTimestamp();
-            }
+        // Handle Y-m format specifically (e.g., "2025-08")
+        if (preg_match('/^\d{4}-\d{2}$/', $dateString)) {
+            return Carbon::createFromFormat('Y-m', $dateString)->timestamp;
         }
 
-        // If no format matches, try strtotime
-        $timestamp = strtotime($dateString);
-        return $timestamp !== false ? $timestamp : 0;
+        // Try other common formats
+        try {
+            return Carbon::parse($dateString)->timestamp;
+        } catch (\Exception $e) {
+            return 0;
+        }
+    }
+
+    /**
+     * Format date for display (e.g., "2025-08" becomes "August 2025")
+     */
+    private function formatDate($dateString)
+    {
+        if (empty($dateString)) {
+            return '';
+        }
+
+        // Handle Y-m format specifically
+        if (preg_match('/^\d{4}-\d{2}$/', $dateString)) {
+            return Carbon::createFromFormat('Y-m', $dateString)->format('F Y');
+        }
+
+        // Try to parse other formats
+        try {
+            return Carbon::parse($dateString)->format('F Y');
+        } catch (\Exception $e) {
+            return $dateString; // Return original if parsing fails
+        }
     }
 }

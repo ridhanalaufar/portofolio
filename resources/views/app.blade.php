@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" x-data="{
     darkMode: localStorage.getItem('darkMode') === 'true' || localStorage.getItem('darkMode') === null,
-    sidebarOpen: false
+    sidebarOpen: false,
 }" x-init="// Sinkronisasi dengan class yang sudah ada
 const currentlyDark = document.documentElement.classList.contains('dark');
 if (currentlyDark !== darkMode) {
@@ -22,7 +22,7 @@ $watch('darkMode', val => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Ideas into Action</title>
 
     <!-- Set dark mode immediately before any rendering -->
     <script>

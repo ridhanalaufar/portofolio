@@ -84,50 +84,50 @@
 
                     <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6" data-aos="fade-right">
                         @foreach ($achievements as $index => $achievement)
-                            <div class="w-full bg-slate-100 dark:bg-gray-800 border border-zinc-300 dark:border-gray-700
-                                rounded-xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1 cursor-pointer flex flex-col group achievement-card"
+                            <div class="w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700
+                                rounded-xl shadow-sm hover:shadow-md transition transform hover:-translate-y-0.5 cursor-pointer flex flex-col group achievement-card"
                                 onclick="openAchievementModal({{ $index }})">
-
-                                {{-- Priority Badge --}}
-                                {{-- @if (isset($achievement['priority']) && $achievement['priority'])
-                                    <div class="absolute top-2 left-2 z-10">
-                                        <span
-                                            class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium
-                                            {{ $achievement['priority'] == '1'
-                                                ? 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200'
-                                                : ($achievement['priority'] == '2'
-                                                    ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200'
-                                                    : 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200') }}">
-                                            P{{ $achievement['priority'] }}
-                                        </span>
-                                    </div>
-                                @endif --}}
 
                                 {{-- Thumbnail Sertifikat --}}
                                 <div
-                                    class="w-full aspect-[4/3] flex items-center justify-center overflow-hidden p-2 relative">
+                                    class="w-full aspect-[4/3] flex items-center justify-center overflow-hidden p-4 relative bg-gray-50 dark:bg-gray-700 rounded-t-xl">
                                     <img src="{{ asset($achievement['images'][0]) }}" alt="{{ $achievement['title'] }}"
                                         class="h-full w-auto object-contain transition duration-300 group-hover:scale-105 rounded-lg" />
                                 </div>
 
                                 {{-- Info Sertifikat --}}
-                                <div class="w-full p-4 sm:p-5 md:p-6 relative flex flex-col flex-grow overflow-hidden">
+                                <div class="w-full p-5 flex flex-col flex-grow overflow-hidden rounded-b-xl">
                                     {{-- Konten Info --}}
                                     <h3
-                                        class="text-base md:text-lg font-medium text-gray-800 dark:text-gray-100 leading-snug mb-2 line-clamp-3 group-hover:text-indigo-600 transition">
+                                        class="text-md md:text-xl font-medium text-gray-800 dark:text-gray-100 leading-snug mb-2 line-clamp-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition">
                                         {{ $achievement['title'] }}
                                     </h3>
 
                                     <div class="mt-auto space-y-1 relative z-10">
-                                        <p class="text-xs text-gray-500 dark:text-gray-400">
-                                            Organizer <span class="font-medium">{{ $achievement['organizer'] }}</span>
+                                        <p class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                                            <svg class="w-3 h-3 mr-1 flex-shrink-0" fill="none" stroke="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-4m-4 0H9m4 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v12m4 0V9" />
+                                            </svg>
+                                            <span class="truncate">{{ $achievement['organizer'] }}</span>
                                         </p>
-                                        <p class="text-xs text-gray-500 dark:text-gray-400">
-                                            Issued On <span class="font-medium">{{ $achievement['date'] }}</span>
+                                        <p class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                                            <svg class="w-3 h-3 mr-1 flex-shrink-0" fill="none" stroke="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                            </svg>
+                                            <span>{{ $achievement['formatted_date'] }}</span>
                                         </p>
                                         @if (isset($achievement['CredentialID']) && $achievement['CredentialID'])
-                                            <p class="text-xs text-gray-500 dark:text-gray-400">
-                                                ID: <span class="font-medium">{{ $achievement['CredentialID'] }}</span>
+                                            <p class="text-xs text-gray-500 dark:text-gray-400 flex items-center">
+                                                <svg class="w-3 h-3 mr-1 flex-shrink-0" fill="none" stroke="currentColor"
+                                                    viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                        d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                                                </svg>
+                                                <span class="truncate">{{ $achievement['CredentialID'] }}</span>
                                             </p>
                                         @endif
                                     </div>
@@ -160,9 +160,9 @@
     {{-- Modal --}}
     <div id="achievementModal" class="fixed inset-0 z-50 bg-black/70 hidden modal-overlay" onclick="closeModal(event)">
         <div class="flex items-center justify-center min-h-full w-full p-4">
-            <div class="relative bg-slate-100 dark:bg-gray-800 rounded-xl overflow-hidden
+            <div class="relative bg-white dark:bg-gray-800 rounded-xl overflow-hidden
                         w-full max-w-md md:max-w-2xl lg:max-w-5xl
-                        h-auto max-h-[calc(100vh-2rem)] flex flex-col lg:flex-row border border-zinc-300 dark:border-gray-700 shadow-lg"
+                        h-auto max-h-[calc(100vh-2rem)] flex flex-col lg:flex-row border border-gray-200 dark:border-gray-700 shadow-lg"
                 onclick="event.stopPropagation()">
 
                 {{-- Gambar Slider --}}
@@ -174,11 +174,12 @@
                             class="max-h-[40vh] md:max-h-[50vh] lg:max-h-[calc(100vh-8rem)] max-w-full object-contain mx-auto transition rounded-lg transform origin-center cursor-move" />
 
                         {{-- Zoom Controls --}}
-                        <div class="absolute bottom-2 right-2 flex flex-col gap-2 z-50">
+                        <div
+                            class="absolute bottom-2 right-2 md:bottom-4 md:right-4 flex flex-col gap-2 z-50 zoom-controls">
                             <button id="zoomInButton"
                                 class="w-8 h-8 flex items-center justify-center bg-black/40 text-white rounded-full hover:bg-black/70 focus:outline-none transition">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                                 </svg>
@@ -226,17 +227,54 @@
                 <div
                     class="w-full lg:w-1/3 p-5 md:p-6 overflow-y-auto text-gray-800 dark:text-gray-50 flex flex-col max-h-[40vh] lg:max-h-full">
                     {{-- Header dengan space untuk close button --}}
-                    <div class="pr-8 mb-2">
-                        <h2 id="modalTitle" class="text-base lg:text-lg font-bold leading-tight"></h2>
+                    <div class="pr-8 mb-4">
+                        <h2 id="modalTitle" class="text-xl font-bold leading-tight text-gray-900 dark:text-white"></h2>
                     </div>
 
-                    <div class="space-y-2 mb-4">
-                        <p class="text-sm">Organizer <span id="modalOrganizer" class="font-medium"></span></p>
-                        <p class="text-sm">Issued On <span id="modalDate" class="font-medium"></span></p>
-                        {{-- <p class="text-sm">Priority <span id="modalPriority" class="font-medium"></span></p> --}}
-                        <div id="modalCredentialInfo" class="space-y-1">
-                            <p class="text-sm">Credential ID <span id="modalCredentialID" class="font-medium"></span></p>
-                            <div id="modalCredentialURL" class="text-sm">
+                    <div class="space-y-3 mb-4">
+                        <p class="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                            <svg class="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-4m-4 0H9m4 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v12m4 0V9" />
+                            </svg>
+                            Organizer: <span id="modalOrganizer" class="font-medium ml-1"></span>
+                        </p>
+                        <p class="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                            <svg class="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                            Issued On: <span id="modalDate" class="font-medium ml-1"></span>
+                        </p>
+                        <div id="modalCredentialInfo" class="space-y-2">
+                            <div>
+                                <div class="flex justify-between items-center mb-2">
+                                    <p class="text-sm text-gray-600 dark:text-gray-300 flex items-center">
+                                        <svg class="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
+                                        </svg>
+                                        Credential ID
+                                    </p>
+                                    <button id="copyCredentialButton"
+                                        class="inline-flex items-center gap-1 px-2 py-1 bg-gray-200 dark:bg-gray-600 text-gray-700 dark:text-gray-200 text-xs rounded hover:bg-gray-300 dark:hover:bg-gray-500 transition-colors">
+                                        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                        </svg>
+                                        <span class="text-xs">Copy</span>
+                                    </button>
+                                </div>
+                                <div class="bg-gray-100 dark:bg-gray-700 p-3 rounded-md">
+                                    <p id="modalCredentialID"
+                                        class="text-sm font-mono break-all whitespace-pre-wrap text-gray-800 dark:text-gray-200 max-h-20 overflow-y-auto pr-1">
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="modalCredentialURL" class="text-sm pt-2">
                                 <a id="modalCredentialLink" href="#" target="_blank"
                                     class="inline-flex items-center gap-2 px-3 py-2 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-700 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-lg hover:bg-blue-100 dark:hover:bg-blue-800/30 hover:border-blue-300 dark:hover:border-blue-600 transition-all duration-200 group">
                                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -252,17 +290,17 @@
                     </div>
 
                     {{-- Additional content if needed --}}
-                    <div class="mt-auto pt-4 border-t border-gray-300 dark:border-gray-600">
+                    <div class="mt-auto pt-4 border-t border-gray-200 dark:border-gray-700">
                         <p class="text-xs text-gray-500 dark:text-gray-400">Click outside to close</p>
                     </div>
                 </div>
 
                 {{-- Tombol Close - Positioned outside content area --}}
                 <button onclick="closeModal()" aria-label="Close"
-                    class="absolute -top-0 -right-0 m-2
+                    class="absolute top-2 right-2
                            w-8 h-8 lg:w-10 lg:h-10 grid place-items-center
                            rounded-full bg-black/40 text-white shadow-lg
-                           hover:bg-red-600 hover:scale-110 transition-all duration-200 z-50">
+                           hover:bg-red-500 hover:scale-110 transition-all duration-200 z-50">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 lg:w-6 lg:h-6" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M6 18L18 6" />
@@ -299,25 +337,45 @@
             const modalTitle = document.getElementById('modalTitle');
             const modalOrganizer = document.getElementById('modalOrganizer');
             const modalDate = document.getElementById('modalDate');
-            // const modalPriority = document.getElementById('modalPriority');
             const modalCredentialID = document.getElementById('modalCredentialID');
             const modalCredentialLink = document.getElementById('modalCredentialLink');
             const modalCredentialURL = document.getElementById('modalCredentialURL');
             const modalCredentialInfo = document.getElementById('modalCredentialInfo');
             const prevButton = document.getElementById('prevButton');
             const nextButton = document.getElementById('nextButton');
+            const copyButton = document.getElementById('copyCredentialButton');
 
             // Update konten modal
             modalImage.src = achievement.images[0];
             modalTitle.textContent = achievement.title;
             modalOrganizer.textContent = achievement.organizer;
             modalDate.textContent = achievement.date;
-            // modalPriority.textContent = achievement.priority || 'Not specified';
 
             // Update credential information
             if (achievement.CredentialID) {
                 modalCredentialID.textContent = achievement.CredentialID;
                 modalCredentialInfo.style.display = 'block';
+
+                // Setup copy button
+                copyButton.onclick = function() {
+                    navigator.clipboard.writeText(achievement.CredentialID).then(function() {
+                        // Ubah tampilan tombol sementara
+                        const originalHTML = copyButton.innerHTML;
+                        copyButton.innerHTML = `
+                            <svg class="w-3 h-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span class="text-xs text-green-500">Copied!</span>
+                        `;
+
+                        // Kembalikan ke tampilan semula setelah 2 detik
+                        setTimeout(() => {
+                            copyButton.innerHTML = originalHTML;
+                        }, 2000);
+                    }).catch(function() {
+                        alert('Failed to copy credential ID');
+                    });
+                };
             } else {
                 modalCredentialInfo.style.display = 'none';
             }
@@ -682,6 +740,34 @@
             overflow: hidden;
         }
 
+        /* Style khusus untuk credential ID yang panjang */
+        #modalCredentialID {
+            word-break: break-all;
+            overflow-wrap: anywhere;
+            line-height: 1.4;
+            max-height: 80px;
+            overflow-y: auto;
+            padding-right: 8px;
+        }
+
+        /* Scrollbar styling */
+        #modalCredentialID::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        #modalCredentialID::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        #modalCredentialID::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+
+        .dark #modalCredentialID::-webkit-scrollbar-thumb {
+            background: #475569;
+        }
+
         /* Mobile specific fixes */
         @media (max-width: 640px) {
             .achievement-card {
@@ -706,6 +792,40 @@
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
             }
+
+            /* Reposition zoom controls on mobile */
+            .zoom-controls {
+                bottom: 16px !important;
+                right: 16px !important;
+                flex-direction: row !important;
+                gap: 8px !important;
+            }
+
+            /* Adjust navigation buttons position on mobile */
+            #prevButton,
+            #nextButton {
+                top: 50% !important;
+                bottom: auto !important;
+                transform: translateY(-50%) !important;
+            }
+
+            #prevButton {
+                left: 16px !important;
+            }
+
+            #nextButton {
+                right: 16px !important;
+            }
+
+            /* Adjust modal content spacing */
+            #modalCredentialInfo {
+                margin-top: 12px;
+            }
+
+            /* Fix copy button placement */
+            #copyCredentialButton {
+                margin-top: 0 !important;
+            }
         }
 
         /* Additional mobile viewport fix */
@@ -715,6 +835,34 @@
                 padding-left: 0;
                 padding-right: 0;
             }
+
+            /* Adjust zoom controls for smaller screens */
+            .zoom-controls {
+                bottom: 12px;
+                right: 12px;
+            }
+
+            .zoom-controls button {
+                width: 36px;
+                height: 36px;
+            }
+        }
+
+        /* Fix for credential ID text not having enough space */
+        #modalCredentialID {
+            padding-right: 40px;
+        }
+
+        /* Adjust copy button position */
+        #copyCredentialButton {
+            margin-top: 8px;
+        }
+
+        /* Ensure navigation buttons are properly centered vertically */
+        #prevButton,
+        #nextButton {
+            top: 50%;
+            transform: translateY(-50%);
         }
     </style>
 @endsection

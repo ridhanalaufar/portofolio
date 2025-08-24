@@ -784,7 +784,7 @@
         ]
     },
     {
-        "title": "INTRO TO DATA ANALYTICS",
+        "title": "Intro to Data Analytics",
         "organizer": "Revo U",
         "date": "2025-06",
         "CredentialID": "DAMC-23062025-01-1-00641",
@@ -1340,5 +1340,17 @@
         "CredentialURL": "",
         "priority": "4",
         "images": ["storage/certificates/Webinar-IT-PM_page_1.png"]
+    },
+    {
+        "title": "Bangkit Academy - Machine Learning Specialization",
+        "organizer": "Kampus Merdeka",
+        "date": "2024-07",
+        "CredentialID": "BA24/GRAD/XXIV-07/M288D4KY3020",
+        "CredentialURL": "",
+        "priority": "1",
+        "images": [
+            "storage/certificates/[Bangkit2024Batch1]Certificate-M288D4KY3020-1.png",
+            "storage/certificates/[Bangkit2024Batch1]Certificate-M288D4KY3020-2.png"
+        ]
     }
 ]
