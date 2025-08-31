@@ -23,6 +23,8 @@ $watch('darkMode', val => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ideas into Action</title>
+    <link rel="shortcut icon" href="{{ asset('/storage/logo/Logo_TechStack/favicon.png') }}" type="image/x-icon">
+
 
     <!-- Set dark mode immediately before any rendering -->
     <script>

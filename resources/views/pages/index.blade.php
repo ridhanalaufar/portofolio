@@ -82,7 +82,8 @@
                     <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center">
                         <div
                             class="w-14 h-14 mx-auto mb-3 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
-                            <i class="fas fa-chart-line text-xl text-green-600 dark:text-green-400"></i>
+                            {{-- <i class="fas fa-chart-line text-xl text-green-600 dark:text-green-400"></i> --}}
+                            <img src="/storage/logo/Logo_TechStack/data-science.png" alt="TensorFlow">
                         </div>
                         <h4 class="font-semibold text-gray-800 dark:text-gray-100">Data Science</h4>
                         <p class="text-sm text-gray-600 dark:text-gray-400">Analysis & ML</p>
@@ -135,8 +136,7 @@
                 <x-tech-item name="Tailwind" logo="tailwind.png" color="cyan" />
 
                 <!-- TensorFlow -->
-                <x-tech-item name="TensorFlow" logo="tensorflow.png" color="orange"
-                    logoClass="dark:brightness-0 dark:invert dark:filter" />
+                <x-tech-item name="TensorFlow" logo="tensorflow.png" color="orange" />
 
                 <!-- Pandas -->
                 <x-tech-item name="Pandas" logo="pandas.png" color="blue" />
@@ -145,8 +145,7 @@
                 <x-tech-item name="Numpy" logo="numpy.svg" color="orange" />
 
                 <!-- Scikit-learn -->
-                <x-tech-item name="Scikit-learn" logo="scikit-learn.png" color="blue"
-                    logoClass="dark:brightness-0 dark:invert dark:filter" />
+                <x-tech-item name="Scikit-learn" logo="scikit-learn.svg" color="blue" />
 
                 <!-- Tableau -->
                 <x-tech-item name="Tableau" logo="tableau.png" color="teal" />
@@ -176,7 +175,7 @@
             <h2 class="text-4xl font-bold text-center mb-16 text-gray-800 dark:text-gray-100 relative">
                 Featured Highlights
                 <span
-                    class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-blue-600 rounded-full"></span>
+                    class="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-blue-600 rounded-full"></span>
             </h2>
 
             <div class="grid md:grid-cols-2 gap-8">

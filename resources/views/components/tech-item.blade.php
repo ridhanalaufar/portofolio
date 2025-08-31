@@ -1,4 +1,4 @@
-@props(['name', 'logo', 'color' => '', 'logoClass' => 'brightness-1 dark:brightness-0 dark:invert dark:filter'])
+@props(['name', 'logo', 'color' => '', 'logoClass' => 'brightness-1 dark:invert group-hover:filter-none'])
 
 @php
     // Mapping warna ke kelas Tailwind yang sesuai
