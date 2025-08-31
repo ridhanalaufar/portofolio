@@ -217,7 +217,7 @@ $watch('darkMode', val => {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </div>
-            @include('partials.nav')
+            @include('components.nav')
         </div>
     </div>
 
@@ -226,7 +226,7 @@ $watch('darkMode', val => {
         <div class="centered-layout">
             {{-- Sidebar Desktop --}}
             <aside class="sidebar-desktop bg-zinc-50 dark:bg-zinc-900 transition-colors duration-300">
-                @include('partials.nav')
+                @include('components.nav')
             </aside>
 
             {{-- Content Area --}}

@@ -8,7 +8,7 @@
 
                 {{-- Achievements --}}
                 <section id="achievements" class="w-full">
-                    <h2 class="text-2xl md:text-3xl font-medium text-gray-800 dark:text-gray-100 mb-6 tracking-tight"
+                    <h2 class="text-2xl md:text-3xl font-medium text-gray-800 dark:text-gray-100 mb-8 tracking-tight"
                         data-aos="fade-down">
                         My Achievements & Certifications
                     </h2>
@@ -71,7 +71,6 @@
                                     </button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 

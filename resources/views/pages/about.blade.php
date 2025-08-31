@@ -1,14 +1,14 @@
 @extends('app')
 
 @section('content')
-    <div class="flex min-h-screen">
+    <div class="flex min-h-screen w-full">
 
         {{-- Main Content --}}
-        <main class="flex-1 p-2 md:p-2 lg:p-4">
-            <div class="max-w-6xl mx-auto space-y-12">
+        <main class="flex-1 w-full p-2 md:p-2 lg:p-4">
+            <div class="w-full max-w-6xl mx-auto space-y-12">
 
                 {{-- Career --}}
-                <section id="career">
+                <section id="career" class="w-full p-4 mb-6">
                     <h2 class="text-2xl md:text-3xl font-medium text-gray-800 dark:text-gray-100 mb-8 tracking-tight"
                         data-aos="fade-down">
                         Professional Experience
