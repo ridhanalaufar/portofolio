@@ -2,112 +2,83 @@
 
 @section('content')
     {{-- Hero Section --}}
-    <section id="home" class="text-center py-8" data-aos="fade-up">
+    <section id="home" class="text-center pt-8" data-aos="fade-up">
         <div class="max-w-4xl mx-auto px-6">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800 dark:text-gray-100">Ridhan Al Aufar</h1>
-            <p class="text-xl text-gray-600 dark:text-gray-300 mb-8">IT Enthusiast & Full Stack Developer</p>
-            <div class="flex justify-center gap-4">
-                <a href="#contact"
-                    class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition">
-                    Get In Touch
-                </a>
-                <a href="{{ route('about') }}"
-                    class="px-6 py-3 border border-blue-600 text-blue-600 dark:text-blue-400 font-medium rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition">
-                    View My Work
-                </a>
-            </div>
+            <h1 class="text-3xl md:text-4xl font-bold mb-3 text-gray-800 dark:text-gray-100 text-left">Ridhan Al Aufar</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-300 text-left"> Living in Jakarta, Indonesia</p>
+            <hr class="my-6 border-t-4 border-gray-400 dark:border-gray-600 border-dotted">
         </div>
     </section>
 
     {{-- About Me --}}
-    <section id="about-me" class="py-8 bg-gray-50 dark:bg-gray-800/50" data-aos="fade-up">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100">About Me</h2>
+    <section id="about-me" data-aos="fade-up">
+        <div class="max-w-4xl mx-auto px-6 -mt-6">
+            <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-justify">
+                I am Ridhan Al Aufar, an IT enthusiast with a strong passion for technology and innovation. I hold a
+                vocational degree in Computer and Network Engineering and am currently pursuing my Bachelor's in Informatics
+                Engineering at Pamulang University.
+            </p>
+            <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-justify">
+                My professional journey spans roles as a Network Engineer, Endpoint Device Technician, NOC Engineer, and
+                administrative staff. These experiences have sharpened my skills in IT networking, technical support, data
+                analytics, and documentation. I’ve also developed a keen interest in bridging infrastructure and application
+                through software development.
+            </p>
+            <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-justify">
+                Currently, I work in Business Development within the ICT sector, where I focus on operational coordination,
+                solution development, and cross-team technical communication. I bring a unique blend of technical expertise
+                and business insight to every project, always aiming to create scalable, efficient, and user-friendly
+                solutions.
+            </p>
 
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h3 class="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">Who I Am</h3>
-                    <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                        I am an IT enthusiast with a strong passion for technology and innovation. With expertise in both
-                        networking and software development,
-                        I enjoy creating solutions that bridge the gap between infrastructure and application.
-                    </p>
-                    <p class="text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-                        Currently pursuing my Bachelor's degree in Informatics Engineering while working as a Business
-                        Development professional,
-                        I bring a unique combination of technical knowledge and business acumen to every project.
-                    </p>
-
-                    <div class="grid grid-cols-2 gap-6">
-                        <div class="flex items-center">
-                            <div
-                                class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mr-4">
-                                <i class="fas fa-graduation-cap text-blue-600 dark:text-blue-400"></i>
-                            </div>
-                            <div>
-                                <p class="font-semibold text-gray-800 dark:text-gray-100">Education</p>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">Informatics Engineering</p>
-                            </div>
-                        </div>
-                        <div class="flex items-center">
-                            <div
-                                class="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center mr-4">
-                                <i class="fas fa-briefcase text-green-600 dark:text-green-400"></i>
-                            </div>
-                            <div>
-                                <p class="font-semibold text-gray-800 dark:text-gray-100">Experience</p>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">3+ Years</p>
-                            </div>
-                        </div>
+            <div class="grid grid-cols-4 gap-4">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center" data-aos="fade-right    ">
+                    <div
+                        class="w-14 h-14 mx-auto mb-3 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
+                        {{-- <i class="fas fa-code text-xl text-blue-600 dark:text-blue-400"></i> --}}
+                        <img src="/storage/logo/Logo_TechStack/programming.svg" alt="Programming">
                     </div>
+                    <h4 class="font-semibold text-gray-800 dark:text-gray-100">Web Development</h4>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Full Stack</p>
                 </div>
-
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center">
-                        <div
-                            class="w-14 h-14 mx-auto mb-3 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
-                            <i class="fas fa-code text-xl text-blue-600 dark:text-blue-400"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-800 dark:text-gray-100">Web Development</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Full Stack</p>
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center" data-aos="fade-right">
+                    <div
+                        class="w-14 h-14 mx-auto mb-3 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center">
+                        {{-- <i class="fas fa-network-wired text-xl text-purple-600 dark:text-purple-400"></i> --}}
+                        <img src="/storage/logo/Logo_TechStack/networking.svg" alt="Networking">
                     </div>
-                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center">
-                        <div
-                            class="w-14 h-14 mx-auto mb-3 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center">
-                            <i class="fas fa-network-wired text-xl text-purple-600 dark:text-purple-400"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-800 dark:text-gray-100">Networking</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Infrastructure</p>
+                    <h4 class="font-semibold text-gray-800 dark:text-gray-100">Networking</h4>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Infrastructure</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center" data-aos="fade-left">
+                    <div
+                        class="w-14 h-14 mx-auto mb-3 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
+                        {{-- <i class="fas fa-chart-line text-xl text-green-600 dark:text-green-400"></i> --}}
+                        <img src="/storage/logo/Logo_TechStack/data-science.png" alt="Data Science">
                     </div>
-                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center">
-                        <div
-                            class="w-14 h-14 mx-auto mb-3 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
-                            {{-- <i class="fas fa-chart-line text-xl text-green-600 dark:text-green-400"></i> --}}
-                            <img src="/storage/logo/Logo_TechStack/data-science.png" alt="TensorFlow">
-                        </div>
-                        <h4 class="font-semibold text-gray-800 dark:text-gray-100">Data Science</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">Analysis & ML</p>
+                    <h4 class="font-semibold text-gray-800 dark:text-gray-100">Data Science</h4>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Analysis & ML</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center" data-aos="fade-left">
+                    <div
+                        class="w-14 h-14 mx-auto mb-3 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center">
+                        {{-- <i class="fas fa-cloud text-xl text-yellow-600 dark:text-yellow-400"></i> --}}
+                        <img src="/storage/logo/Logo_TechStack/cloud.svg" alt="Cloud Computing">
                     </div>
-                    <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm text-center">
-                        <div
-                            class="w-14 h-14 mx-auto mb-3 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center">
-                            <i class="fas fa-cloud text-xl text-yellow-600 dark:text-yellow-400"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-800 dark:text-gray-100">Cloud</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-400">AWS & GCP</p>
-                    </div>
+                    <h4 class="font-semibold text-gray-800 dark:text-gray-100">Cloud</h4>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">AWS & GCP</p>
                 </div>
             </div>
         </div>
     </section>
 
     {{-- Skills Section --}}
-    <section id="skills" class="py-6" data-aos="fade-up">
+    <section id="skills" class="pt-6" data-aos="fade-down">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">Tech Stack</h2>
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-gray-100">Tech Stack</h2>
 
             <div
-                class="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-8 gap-1 justify-items-center">
+                class="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-8 xl:grid-cols-10 gap-1 justify-items-center">
                 <!-- HTML -->
                 <x-tech-item name="HTML" logo="html5.png" color="teal" />
 
@@ -164,23 +135,74 @@
 
                 <!-- MikroTik -->
                 <x-tech-item name="MikroTik" logo="mikrotik.svg" color="gray" />
+
+                <!-- Adobe Photoshop -->
+                <x-tech-item name="Adobe Photoshop" logo="adobe_photoshop.png" color="blue" />
+
+                <!-- Artificial Intelegence -->
+                <x-tech-item name="Artificial Intelegence" logo="ai.png" color="gray" />
+
+                <!-- C++ -->
+                <x-tech-item name="C++" logo="cpp.png" color="blue" />
+
+                <!-- Canva -->
+                <x-tech-item name="Canva" logo="canva.png" color="purple" />
+
+                <!-- Codeigniter -->
+                <x-tech-item name="Codeigniter" logo="codeigniter.png" color="orange" />
+
+                <!-- colabs -->
+                <x-tech-item name="Colabs" logo="colabs.png" color="orange" />
+
+                <!-- cpanel -->
+                <x-tech-item name="Cpanel" logo="cpanel.png" color="orange" />
+
+                <!-- debian -->
+                <x-tech-item name="Debian" logo="debian.png" color="orange" />
+
+                <!-- Github -->
+                <x-tech-item name="Github" logo="github.png" color="orange" />
+
+                <!-- Java -->
+                <x-tech-item name="Java" logo="java.png" color="orange" />
+
+                <!-- jquery -->
+                <x-tech-item name="JQuery" logo="jquery.png" color="orange" />
+
+                <!-- Jupyter -->
+                <x-tech-item name="Jupyter" logo="Jupyter.png" color="orange" />
+
+                <!-- kaggle -->
+                <x-tech-item name="Kaggle" logo="kaggle.png" color="blue" />
+
+                <!-- keras -->
+                <x-tech-item name="Keras" logo="keras.png" color="blue" />
+
+                <!-- Matplotlib -->
+                <x-tech-item name="Matplotlib" logo="Matplotlib.png" color="blue" />
+
+                <!-- nginx -->
+                <x-tech-item name="Nginx" logo="nginx.png" color="green" />
+
+                <!-- nodejs -->
+                <x-tech-item name="Node js" logo="nodejs.png" color="green" />
+
             </div>
         </div>
     </section>
 
 
     {{-- Featured Highlights Section --}}
-    <section id="featured" class="py-16 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
+    <section id="featured" class="bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-16 text-gray-800 dark:text-gray-100 relative">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-800 dark:text-gray-100 relative"
+                data-aos="fade-down">
                 Featured Highlights
-                <span
-                    class="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-blue-600 rounded-full"></span>
             </h2>
 
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- Career Highlights -->
-                <div class="relative group" x-data="{ cardHover: false }">
+                <div class="relative group" x-data="{ cardHover: false }" data-aos="fade-right">
                     <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-500"
                         :class="{ 'opacity-50': cardHover }"></div>
                     <div class="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg h-full flex flex-col"
@@ -232,7 +254,7 @@
                 </div>
 
                 <!-- Education -->
-                <div class="relative group" x-data="{ cardHover: false }">
+                <div class="relative group" x-data="{ cardHover: false }" data-aos="fade-left">
                     <div class="absolute inset-0 bg-gradient-to-r from-green-600 to-teal-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-500"
                         :class="{ 'opacity-50': cardHover }"></div>
                     <div class="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg h-full flex flex-col"
@@ -275,7 +297,7 @@
                 </div>
 
                 <!-- Certifications -->
-                <div class="relative group" x-data="{ cardHover: false }">
+                <div class="relative group" x-data="{ cardHover: false }" data-aos="fade-up">
                     <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-500"
                         :class="{ 'opacity-50': cardHover }"></div>
                     <div class="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg h-full flex flex-col"
@@ -326,7 +348,7 @@
                 </div>
 
                 <!-- Recent Projects -->
-                <div class="relative group" x-data="{ cardHover: false }">
+                <div class="relative group" x-data="{ cardHover: false }" data-aos="fade-up">
                     <div class="absolute inset-0 bg-gradient-to-r from-yellow-600 to-orange-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-500"
                         :class="{ 'opacity-50': cardHover }"></div>
                     <div class="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg h-full flex flex-col"

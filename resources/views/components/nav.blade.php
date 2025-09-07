@@ -168,7 +168,7 @@
         {{-- Social Media Icons --}}
         <div class="flex justify-center space-x-5 w-full">
             {{-- Instagram --}}
-            <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.instagram.com/ridhann.4" target="_blank" rel="noopener noreferrer"
                 class="flex items-center justify-center w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-pink-100 dark:hover:bg-pink-900/30 hover:text-pink-600 dark:hover:text-pink-400 transition-all duration-300 transform hover:scale-110"
                 title="Instagram">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -179,7 +179,7 @@
             </a>
 
             {{-- LinkedIn --}}
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/ridhanalaufar" target="_blank" rel="noopener noreferrer"
                 class="flex items-center justify-center w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:text-blue-700 dark:hover:text-blue-400 transition-all duration-300 transform hover:scale-110"
                 title="LinkedIn">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -189,7 +189,7 @@
             </a>
 
             {{-- Email --}}
-            <a href="mailto:your.email@example.com" target="_blank" rel="noopener noreferrer"
+            <a href="mailto:ridhan783@gmail.com" target="_blank" rel="noopener noreferrer"
                 class="flex items-center justify-center w-10 h-10 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 hover:bg-red-100 dark:hover:bg-red-900/30 hover:text-red-600 dark:hover:text-red-400 transition-all duration-300 transform hover:scale-110"
                 title="Email">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

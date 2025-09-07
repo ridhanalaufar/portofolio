@@ -17,15 +17,15 @@
     $bgClass = $colorClasses[$color] ?? $colorClasses['blue'];
 @endphp
 
-<div class="relative w-16 h-16 flex items-center justify-center mb-12 cursor-pointer group tech-item">
+<div class="relative w-12 h-12 flex items-center justify-center mb-8 cursor-pointer group tech-item">
     <div
         class="absolute w-full h-full {{ $bgClass }} rounded-xl transition-all duration-300 group-hover:translate-x-3 group-hover:-translate-y-3 group-hover:rotate-10 group-hover:shadow-md z-10">
     </div>
     <div
-        class="relative z-30 flex items-center justify-center w-14 h-14 bg-white/10 dark:bg-white/5 backdrop-blur rounded-xl border border-white/20 dark:border-white/10 transition-all duration-300 group-hover:scale-110">
-        <div class="flex items-center justify-center w-10 h-10 transition-all duration-300 group-hover:scale-115">
+        class="relative z-30 flex items-center justify-center w-12 h-12 bg-white/10 dark:bg-white/5 backdrop-blur rounded-xl border border-white/20 dark:border-white/10 transition-all duration-300 group-hover:scale-110">
+        <div class="flex items-center justify-center w-8 h-8 transition-all duration-300 group-hover:scale-115">
             <img src="/storage/logo/Logo_TechStack/{{ $logo }}" alt="{{ $name }}"
-                class="w-10 h-10 transition-all duration-300 group-hover:scale-105 {{ $logoClass }}" />
+                class="w-8 h-8 transition-all duration-300 group-hover:scale-105 {{ $logoClass }}" />
         </div>
     </div>
     <div
