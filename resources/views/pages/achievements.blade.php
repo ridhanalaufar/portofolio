@@ -4,7 +4,7 @@
     <div class="flex min-h-screen w-full">
         {{-- Main Content --}}
         <main class="flex-1 w-full p-2 md:p-2 lg:p-4">
-            <div class="w-full max-w-6xl mx-auto space-y-12">
+            <div class="w-full max-w-7xl mx-auto space-y-12">
 
                 {{-- Achievements --}}
                 <section id="achievements" class="w-full">
