@@ -23,23 +23,26 @@
                         <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-justify">
                             I am Ridhan Al Aufar, an IT enthusiast with a strong passion for technology and innovation. I
                             hold a
-                            vocational degree in Computer and Network Engineering and am currently pursuing my Bachelor's in
+                            vocational degree in Computer and Network Engineering and I am currently pursuing my Bachelor's
+                            in
                             Informatics
                             Engineering at Pamulang University.
                         </p>
                         <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-justify">
-                            My professional journey spans roles as a Network Engineer, Endpoint Device Technician, NOC
+                            My professional journey encompasses roles such as a Network Engineer, Endpoint Device
+                            Technician, NOC
                             Engineer, and
-                            administrative staff. These experiences have sharpened my skills in IT networking, technical
+                            administrative staff. These experiences have refined my skills in IT networking, technical
                             support, data
-                            analytics, and documentation. I’ve also developed a keen interest in bridging infrastructure and
+                            analytics, and documentation. I have also developed a keen interest in bridging infrastructure
+                            and
                             application
                             through software development.
                         </p>
                         <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed text-justify">
-                            Currently, I work in Business Development within the ICT sector, where I focus on operational
-                            coordination,
-                            solution development, and cross-team technical communication. I bring a unique blend of
+                            My current position is in business development within the ICT sector, where I specialize in
+                            operational coordination, solution development, and facilitating cross-team technical
+                            communication. I bring a unique blend of
                             technical expertise
                             and business insight to every project, always aiming to create scalable, efficient, and
                             user-friendly
@@ -51,7 +54,7 @@
                 {{-- Expertise Section --}}
                 <section id="about-me" data-aos="fade-up" class="w-full overflow-hidden">
                     <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
-                        <h2 class="text-3xl font-bold text-center mb-10 text-gray-800 dark:text-gray-100"
+                        <h2 class="mb-8 text-3xl font-bold text-center text-gray-800 dark:text-gray-100"
                             data-aos="fade-down">
                             Expertise
                         </h2>
@@ -234,7 +237,7 @@
                 {{-- Featured Highlights Section --}}
                 <section id="featured" data-aos="fade-up" class="w-full overflow-hidden">
                     <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
-                        <h2 class="text-4xl font-bold text-center mb-16 text-gray-800 dark:text-gray-100"
+                        <h2 class="mb-8 text-4xl font-bold text-center text-gray-800 dark:text-gray-100"
                             data-aos="fade-down">
                             Featured Highlights
                         </h2>
@@ -487,7 +490,7 @@
                 </section>
 
                 {{-- Call to Action --}}
-                <section id="contact" class="w-full py-16 text-center" data-aos="fade-up">
+                {{-- <section id="contact" class="w-full py-2 text-center" data-aos="fade-up">
                     <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
                         <h2 class="text-3xl font-bold mb-6 text-gray-800 dark:text-gray-100">Let's Work Together</h2>
                         <p class="text-xl text-gray-700 dark:text-gray-300 mb-8">
@@ -501,7 +504,7 @@
                             Get In Touch
                         </a>
                     </div>
-                </section>
+                </section> --}}
 
             </div>
         </main>
